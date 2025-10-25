@@ -1,0 +1,216 @@
+{
+  "tags": {
+    "en-note": 207,
+    "div": 16609,
+    "h1": 106,
+    "h2": 544,
+    "b": 3499,
+    "h3": 1042,
+    "br": 1267,
+    "en-media": 75,
+    "a": 240,
+    "span": 1105,
+    "u": 6,
+    "ol": 197,
+    "li": 3875,
+    "ul": 961,
+    "h4": 195,
+    "code": 517,
+    "table": 29,
+    "colgroup": 29,
+    "col": 139,
+    "tbody": 29,
+    "tr": 203,
+    "td": 869,
+    "i": 120,
+    "hr": 377,
+    "img": 3,
+    "blockquote": 23,
+    "th": 83,
+    "p": 21,
+    "strong": 18
+  },
+  "samples": {
+    "en-media": [
+      "<en-media style=\"--en-naturalWidth:602; --en-naturalHeight:238;\" hash=\"a508b69c135728070b9bdb4c576c1eb0\" type=\"image/png\" />",
+      "<en-media style=\"--en-naturalWidth:936; --en-naturalHeight:442;\" alt=\"1.png\" width=\"693px\" hash=\"a8d708ad7d9907a97a22aa13857d76f0\" type=\"image/png\" />",
+      "<en-media style=\"--en-naturalWidth:893; --en-naturalHeight:744;\" width=\"633px\" hash=\"831382670ca9c47cdc4ed919f6c05feb\" type=\"image/png\" />",
+      "<en-media style=\"--en-naturalWidth:1094; --en-naturalHeight:514;\" hash=\"167fdc598c5e8fe7f86241d7563e96ee\" type=\"image/png\" />",
+      "<en-media type=\"image/jpeg\" hash=\"adab2a4b8afc884797aa2dbca842309a\" width=\"576\" height=\"384\" style=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;display:block;max-width:100%;...",
+      "<en-media type=\"image/jpeg\" hash=\"e6f7beaf07b49cc25627e4411e040846\" width=\"576\" height=\"253\" style=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;display:block;max-width:100%;..."
+    ],
+    "en-todo": [],
+    "br": [],
+    "h1": [
+      "<h1 style=\"--en-nodeId:8503023a-1add-40a9-b034-a248291b7429;\">'저축의 시대'에서 '투자의 시대'로: 복리의 마법을 깨우는 패러다임 혁명</h1>",
+      "<h1 style=\"--en-nodeId:d9b1d2f3-cc7d-4e82-9e46-f7b9cae8630e;\">ETF 상품명에 숨겨진 투자 정보의 보고</h1>",
+      "<h1 style=\"--en-nodeId:a01785dd-8958-49ca-a25a-d821985e6021;\">[5. IP 주소와 도메인 주소 – 이름과 주소, 어떻게 연결될까?]</h1>",
+      "<h1 style=\"--en-nodeId:6baf6c2d-49f2-49f1-814c-ad33888865c4;\">[6. 서버와 클라이언트는 어떤 언어로 대화할까?] – HTTP와 REST API 이해하기</h1>",
+      "<h1 style=\"--en-nodeId:3a14d683-5b58-4f30-8d41-7b02bbd4deb0;\">KBO 선수 세이버메트릭스 분석 시스템 상세 기능 명세서 (현실적 구현 버전)</h1>",
+      "<h1 style=\"--en-nodeId:d3f5cf66-fe48-4dbb-9555-6c0eea30f74e;\">KBO 선수 세이버메트릭스 분석 시스템 요구사항 정의서</h1>",
+      "<h1 style=\"font-family:&quot;PT Serif&quot;;text-align:left;border:0px;font:inherit;vertical-align:baseline;font-size:35px;font-weight:normal;line-height:35px;margin-bottom:20px;padding:0px;margin:0px...",
+      "<h1 style=\"--en-nodeId:f0d70c8f-0c58-4460-9905-df8b6627bdc5;\">폭싹 속았수다 – 울면서 봤던, 부모의 사랑을 담은 사계절 이야기</h1>",
+      "<h1 style=\"--en-nodeId:8b4bf0a1-5803-429b-90bc-7c6b24d8ff85;\">📋 Finance Data Vibe 프로젝트 - 오늘 작업 완료 체크리스트</h1>",
+      "<h1 style=\"--en-nodeId:a691ba1d-91d9-47f7-b243-5be73a6348ab;\">금융 분석 방법론 상세 가이드</h1>"
+    ],
+    "h2": [
+      "<h2 style=\"--en-nodeId:0a47ce0d-bdb4-40ad-a77b-4ba5cbc07a4f;\">저축의 시대의 종말: 더 이상 안전하지 않은 안전자산</h2>",
+      "<h2 style=\"--en-nodeId:0d4d5700-3bcb-432e-acd0-abb9966448f0;\">투자의 시대로의 필연적 전환: 생존을 위한 선택</h2>",
+      "<h2 style=\"--en-nodeId:b518ffd5-6cc5-46ce-a837-4d6dc23c1188;\">1. 도입: ‘www.naver.com’을 입력하면, 어떻게 찾아가는 걸까?</h2>",
+      "<h2 style=\"--en-nodeId:ba2803e1-adc8-4027-918a-64a844b5433f;\">2. IP 주소란? – 인터넷 속의 집 주소</h2>",
+      "<h2 style=\"--en-nodeId:2aa9e020-47e8-44e6-9e9e-15f755481ab3;\">1. 시스템 아키텍처</h2>",
+      "<h2 style=\"--en-nodeId:2ee95908-bea5-4827-87e8-ac8921543b1f;\">2. 데이터 수집 모듈 (data_collector)</h2>",
+      "<h2 style=\"--en-nodeId:8d0eff43-be04-48dd-9e85-f38067307ece;\">1950년대 제주, 사랑과 인생의 사계절을 담다</h2>",
+      "<h2 style=\"--en-nodeId:22c3fbf4-7c9f-4332-9f68-ba5b6fba3696;\">진심이 전해졌던 연기, 그리고 잊지 못할 인물들</h2>",
+      "<h2 style=\"--en-nodeId:c1512f0a-4dc5-481c-9f73-fca2e98953f2;\">🥇 <b>1. OpenDartReader (가장 추천)</b></h2>",
+      "<h2 style=\"--en-nodeId:d0fd98d6-1180-4e3a-b0fa-7b83406cf65e;\">🥈 <b>2. dart-fss 라이브러리</b></h2>"
+    ],
+    "h3": [
+      "<h3 style=\"--en-nodeId:2f99fc5c-c182-41e0-818e-f8b0a273ac47;\">조기 시작과 꾸준함</h3>",
+      "<h3 style=\"--en-nodeId:21fb15dc-3e52-4d3f-a1a5-6e2361c87b8b;\">비용 최소화</h3>",
+      "<h3 style=\"--en-nodeId:f09c5e80-d11e-4f51-8fa6-df22d08c7500;\">사용 예제</h3>",
+      "<h3 style=\"--en-nodeId:72d05e23-4ee6-48cf-bc62-484f2b439ff3;\">리눅스 옵션 예시</h3>",
+      "<h3 style=\"--en-nodeId:f535db12-4fe7-4739-8a9d-e6e4c898702a;\">1.1 전체 구조 (현실 기반)</h3>",
+      "<h3 style=\"--en-nodeId:5d7085b0-5a21-4d35-acc7-101419ca9581;\">1.2 모듈 구성 (현실 기반)</h3>",
+      "<h3 style=\"--en-nodeId:ac7c6050-f63c-441d-9977-b2efdbbfc2ec;\">1. 이 시대의 부모와 부부의 상(像)</h3>",
+      "<h3 style=\"--en-nodeId:27f42260-670a-4055-b9f4-81b7205f8be7;\">2. \"상을 엎어라\" – 익숙한 틀에 대한 유쾌한 반항</h3>",
+      "<h3 style=\"--en-nodeId:3a97655f-16f0-436a-baba-1531ed245824;\"><b>설치 및 기본 설정</b></h3>",
+      "<h3 style=\"--en-nodeId:81b6233b-e6df-4060-becd-5f6861870757;\"><b>주요 기능 사용법</b></h3>"
+    ],
+    "ul": [
+      "<ul><li><div><span style=\"color:rgb(224, 108, 117);\">EFA : iShares MSCI EAFE ETF</span></div></li><li><div><span style=\"color:rgb(224, 108, 117);\"> IEFA : iShares Core MSCI EAFE ETF</span></div></li><...",
+      "<ul><li><div><b>실제 한국 ETF 데이터베이스</b> (KODEX, TIGER 시리즈 포함)</div></li><li><div><b>체계적 분류</b>: 국내/해외 주식, 채권, 대안투자, 테마/섹터</div></li><li><div><b>SQLite 데이터베이스</b> 기반 데이터 저장/관리</div></li><li><div><b>ETF 정보...",
+      "<ul><li><div><b>IPv4</b>: 32비트 주소 체계, 4개의 숫자로 구성 (예: 192.168.0.1)</div></li><li><div><b>IPv6</b>: 128비트 주소 체계, 더 많은 기기를 수용 (예: 2001:0db8::1)</div></li></ul>",
+      "<ul><li><div>예: <code>www.google.com</code>, <code>www.naver.com</code>, <code>blog.example.co.kr</code></div></li></ul>",
+      "<ul><li><div><b>data_collector</b>: KBO 공개 데이터 수집 모듈</div></li><li><div><b>internal_data_processor</b>: 구단 내부 데이터 처리 모듈</div></li><li><div><b>sabermetrics_engine</b>: 현실적 세이버메트릭스 계산 엔진</div></li><li><...",
+      "<ul><li><div>선수 기본 정보 (이름, 포지션, 생년월일, 경력)</div></li><li><div>기본 타격 기록 (게임, 타수, 안타, 홈런, 타점, 득점, 볼넷, 삼진 등)</div></li><li><div>기본 투구 기록 (게임, 이닝, 승, 패, 세이브, 피안타, 삼진, 볼넷, 자책점 등)</div></li><li><div>기본 수비 기록...",
+      "<ul><li><div>TCP/IP는 이론보다 실용성에 중점을 둔 프로토콜</div></li><li><div>OSI 레퍼런스 모델은 7계층을 이루고 TCP/IP모델은 4계층으로 구분</div></li><li><div>1계층(피지컬 계층) : 물리적 연결과 관련된 정보를 정의 : 허브, 리피터, 케이블, 커넥터, 트랜시버, 탭</div></li><li><di...",
+      "<ul><li><div>유니캐스트(Unicast)</div></li><ul><li><div>출발지와 목적지가 1:1로 통신</div></li></ul>",
+      "<ul><li><div>분당 1000회 이상 요청시 서비스가 제한될 수 있습니다</div></li><li><div>개인 계정은 일일 호출 횟수 제한이 있음</div></li><li><div>기관으로 신청 시 공시목록 및 기업개황 조회를 한도제한 없이 사용할 수 있습니다</div></li></ul>",
+      "<ul><li><div>[x] <b>기본분석 45% : 시장분석 30% : 감정분석 25%</b> 비율 완벽 구현</div></li><li><div>[x] <b>DART 시차 문제</b> 실시간 데이터 보완으로 해결</div></li><li><div>[x] <b>100점 만점 워런 버핏 점수</b> 계산 엔진 완성</div></li><li><div>[x] ..."
+    ],
+    "ol": [
+      "<ol><li><div><b><span style=\"color:#0070C0;\">2030 세대를 위한 맞춤형 주식투자전략</span></b></div></li></ol>",
+      "<ol><li><div><b>파일 생성</b></div></li></ol>",
+      "<ol><li><div>사용자가 브라우저에 ‘www.google.com’을 입력합니다.</div></li><li><div>컴퓨터는 DNS 서버에 ‘이 도메인에 해당하는 IP 주소가 뭐야?’ 하고 묻습니다.</div></li><li><div>DNS 서버는 ‘142.250.206.68’이라고 응답합니다.</div></li><li><div>브라우저는 해당 IP ...",
+      "<ol><li><div><b>DNS 질의 확인</b> – <code>nslookup</code>, <code>dig</code></div><div>도메인이 올바르게 IP로 해석되는가?\n\n</div></li><li><div><b>연결 상태 확인</b> – <code>ping</code>, <code>tcping</code></div><div>대상 서버까지 I...",
+      "<ol><li><div><b>선수 기본 정보</b> (나이, 포지션, 계약 상태)</div></li><li><div><b>2024 시즌 성과 요약</b> (주요 지표)</div></li><li><div><b>리그 내 순위</b> (동포지션 대비)</div></li><li><div><b>강점/약점 분석</b> (데이터 기반)</div></li><li><div...",
+      "<ol><li><div>이 시대의 부모의 상, 부부의 상을 그리고 있다.</div></li></ol>",
+      "<ol start=\"2\"><li><div>상을 엎어라 에서 나오는 기존 관습에 대한 반항</div></li></ol>",
+      "<ol><li><div><b>DART 홈페이지 접속</b>: <a href=\"https://opendart.fss.or.kr\">https://opendart.fss.or.kr</a></div></li><li><div><b>회원가입 및 로그인</b></div></li><li><div><b>오픈API > 인증키 신청/관리</b>에서 신청</div></li><l...",
+      "<ol><li><div><b>OpenDartReader</b> - 가장 사용하기 쉽고 기능이 풍부</div></li><li><div><b>dart-fss</b> - 재무제표 분석에 특화</div></li><li><div><b>직접 API 호출</b> - 세밀한 제어가 필요한 경우</div></li></ol>"
+    ],
+    "li": [
+      "<li><div><b><span style=\"color:#0070C0;\">2030 세대를 위한 맞춤형 주식투자전략</span></b></div></li>",
+      "<li><div><span style=\"color:rgb(224, 108, 117);\">EFA : iShares MSCI EAFE ETF</span></div></li>",
+      "<li><div><b>IPv4</b>: 32비트 주소 체계, 4개의 숫자로 구성 (예: 192.168.0.1)</div></li>",
+      "<li><div><b>IPv6</b>: 128비트 주소 체계, 더 많은 기기를 수용 (예: 2001:0db8::1)</div></li>",
+      "<li><div><b>data_collector</b>: KBO 공개 데이터 수집 모듈</div></li>",
+      "<li><div><b>internal_data_processor</b>: 구단 내부 데이터 처리 모듈</div></li>",
+      "<li><div>TCP/IP는 이론보다 실용성에 중점을 둔 프로토콜</div></li>",
+      "<li><div>OSI 레퍼런스 모델은 7계층을 이루고 TCP/IP모델은 4계층으로 구분</div></li>",
+      "<li><div><b>DART 홈페이지 접속</b>: <a href=\"https://opendart.fss.or.kr\">https://opendart.fss.or.kr</a></div></li>",
+      "<li><div><b>회원가입 및 로그인</b></div></li>"
+    ],
+    "a": [
+      "<a href=\"https://m.post.naver.com/viewer/postView.nhn?volumeNo=28118564&amp;memberNo=25828090\" rev=\"en_rl_none\"><span style=\"color:blue;\"><u>https://m.post.naver.com/viewer/postView.nhn?volumeNo=28118...",
+      "<a href=\"https://iot-lab.tistory.com/63\">https://iot-lab.tistory.com/63</a>",
+      "<a href=\"https://www.samsungsds.com/kr/insights/web3.html\" rev=\"en_rl_none\">https://www.samsungsds.com/kr/insights/web3.html</a>",
+      "<a href=\"https://ettrends.etri.re.kr/ettrends/195/0905195008/\">https://ettrends.etri.re.kr/ettrends/195/0905195008/</a>",
+      "<a href=\"https://m.post.naver.com/viewer/postView.nhn?volumeNo=29749223&amp;memberNo=1006583&amp;vType=VERTICAL#\" target=\"_blank\" style=\"color:rgb(6, 85, 136);border:0px;font:inherit;vertical-align:ba...",
+      "<a href=\"https://blog.naver.com/dayhyub/222729097076\">https://blog.naver.com/dayhyub/222729097076</a>",
+      "<a href=\"https://opendart.fss.or.kr\">https://opendart.fss.or.kr</a>",
+      "<a href=\"https://collection.py\">collection.py</a>"
+    ],
+    "b": [
+      "<b>저축</b>",
+      "<b>실질금리는 거의 0%이거나 오히려 마이너스</b>",
+      "<b>IP 주소</b>",
+      "<b>도메인 주소</b>",
+      "<br/></div></div><h3 style=\"--en-nodeId:5d7085b0-5a21-4d35-acc7-101419ca9581;\">1.2 모듈 구성 (현실 기반)</h3><ul><li><div><b>data_collector</b>",
+      "<b>internal_data_processor</b>",
+      "<br/></div><div style=\"font-size: 16px; display:block; min-width: 100%; \"> <div style=\"background-color:transparent;font:inherit;vertical-align:baseline;\"><div style=\"background-color:transparent;font...",
+      "<blockquote style=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;quotes:none;font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em;margin-bottom:0px;\"><span...",
+      "<b>1. OpenDartReader (가장 추천)</b>",
+      "<b>설치 및 기본 설정</b>"
+    ],
+    "i": [
+      "<i><span style=\"color:rgb(0, 0, 0);\">investing_com_etf_crawling.py</span></i>",
+      "<i>ETF 포트폴리오 관리 시스템 개발기 1편</i>",
+      "<i><span style=\"color:rgb(0, 0, 0);\">1. 네이버 책방 서비스의 변화(?)</span></i>",
+      "<i><span style=\"color:rgb(0, 0, 0);\">2. 나는 감정 표현이 서툴다.</span></i>",
+      "<i>마지막 업데이트: 2025-07-07 23:45</i>",
+      "<i>.py\"]\npython_classes = [\"Test</i>"
+    ],
+    "u": [
+      "<u>https://m.post.naver.com/viewer/postView.nhn?volumeNo=28118564&amp;memberNo=25828090</u>",
+      "<u><span style=\"--en-markholder:true;\"><br/></span></u>",
+      "<u style=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">보유 효과(endowment effect)</u>",
+      "<u style=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">현상유지편향(Status quo bias)</u>"
+    ],
+    "span": [
+      "<span style=\"color:blue;\"><u>https://m.post.naver.com/viewer/postView.nhn?volumeNo=28118564&amp;memberNo=25828090</u></span>",
+      "<span style=\"color:blue;\"><u><span style=\"--en-markholder:true;\"><br/></span>",
+      "<span style=\"color:rgb(85, 85, 85);\"><span style=\"--en-markholder:true;\"><br/></span>",
+      "<span style=\"color:rgb(0, 0, 0);\">미국방연구원(DARPA)의 AI와 XAI의 개념비교도. 자료=DARPA</span>",
+      "<span style=\"font:inherit;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;background:-webkit-linear-gradient(0deg, rgb(...",
+      "<span style=\"font:inherit;quotes:none;font-style:italic;\"></span>",
+      "<span style=\"color:rgb(68, 68, 68);\">6cb52111121ebded13caf4d689ea1e97e83a0afd</span>",
+      "<span style=\"color:rgb(0, 0, 0);\">안녕하세요! 오늘부터 제가 오늘 Vibe Coding으로 진행한 </span>"
+    ],
+    "div": [
+      "<div style=\"display:none;--en-chs:&quot;eyJoMSI6eyJmb250RmFtaWx5IjoiaW5oZXJpdCIsImZvbnRTaXplIjoiMjVweCIsImNvbG9yIjoiaW5oZXJpdCIsImZvbnRXZWlnaHQiOiI2MDAiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRp...",
+      "<div>우리 부모 세대에게 <b>저축</b>은 미덕이었습니다. 은행에 돈을 맡기면 연 6-8%의 이자를 받을 수 있었고, 이는 물가상승률을 충분히 상회하는 실질수익률을 보장했습니다. 정기예금만으로도 돈이 실질적으로 불어나는 시대였죠. '복리의 마법'이라는 말도 이때는 저축에 적용되는 개념이었습니다. 매년 8%씩 복리로 불어나는 예금은 9년이면 원금이 두 ...",
+      "<div># 데이터의 바다에서 길을 찾다: 젠스파크 AI와 함께한 데이터 분석 여정</div>",
+      "<div><br/></div>",
+      "<div style=\"display:none;--en-chs:&quot;eyJpc0VtcHR5IjpmYWxzZSwiaDEiOnsiZm9udEZhbWlseSI6ImluaGVyaXQiLCJmb250U2l6ZSI6IjI1cHgiLCJjb2xvciI6ImluaGVyaXQiLCJmb250V2VpZ2h0IjoiNjAwIiwiZm9udFN0eWxlIjoiaW5oZXJp...",
+      "<div style=\"--en-codeblock:true; --en-lineWrapping:false;box-sizing: border-box; padding: 8px; font-family: &quot;Fira Code&quot;,&quot;Consolas&quot;,&quot;Monaco&quot;,&quot;Andale Mono&quot;,&quot;...",
+      "<div style=\"--en-clipped-content:simplified; --en-clipped-source-url:https://m.post.naver.com/viewer/postView.nhn?volumeNo=29749223&amp;memberNo=1006583&amp;vType=VERTICAL; --en-clipped-source-title:#...",
+      "<div style=\"font-size: 16px; display:block; min-width: 100%; \"> <div style=\"background-color:transparent;font:inherit;vertical-align:baseline;\"><div style=\"background-color:transparent;font:inherit;ve...",
+      "<div style=\"display:none;--en-chs:&quot;eyJoMSI6eyJmb250RmFtaWx5IjoiaW5oZXJpdCIsImZvbnRTaXplIjoiMjVweCIsImNvbG9yIjoiaW5oZXJpdCIsImZvbnRXZWlnaHQiOiI2MDAiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRp...",
+      "<div>DART의 기업 공시 정보를 가져오는 방법은 여러 가지가 있습니다! 가장 쉽고 효과적인 방법들을 소개해드리겠습니다.</div>"
+    ],
+    "table": [
+      "<table width=\"778px\" style=\"width:778px;border-collapse:collapse;\"><colgroup><col style=\"width: 96px;\" /><col style=\"width: 135.33334350585938px;\" /><col style=\"width: 129.33334350585938px;\" /><col st...",
+      "<table width=\"857.3333435058594px\" style=\"width:857.3333435058594px;border-collapse:collapse;\"><colgroup><col style=\"width: 287.3333435058594px;\" /><col style=\"width: 190px;\" /><col style=\"width: 190p...",
+      "<table width=\"927.3333129882812px\" style=\"border-collapse:collapse;width:927.3333129882812px;\"><colgroup><col style=\"width: 188px;\" /><col style=\"width: 188px;\" /><col style=\"width: 84px;\" /><col styl...",
+      "<table width=\"564px\" style=\"border-collapse:collapse;width:564px;\"><colgroup><col style=\"width: 188px;\" /><col style=\"width: 188px;\" /><col style=\"width: 188px;\" /></colgroup><tbody><tr><th style=\"bor..."
+    ]
+  },
+  "special_cases": {
+    "html_entities": [
+      "&amp;",
+      "&lt;",
+      "&quot;"
+    ],
+    "nested_tags": [
+      "<div><br/></div><en-media style=\"--en-naturalWidth:602; --en-naturalHeight:238;\" hash=\"a508b69c135728070b9bdb4c576c1eb0\" type=\"image/png\" /><div style=\"text-align:justify;margin-bottom:11px;\"><a href=...",
+      "<div><span style=\"color:rgb(0, 0, 0);\">﻿</span></div>",
+      "<div>\"웹 3.0(Web 3.0)이란 컴퓨터가 시맨틱 웹 기술을 이용하여 웹페이지에 담긴 내용을 이해하고 개인 맞춤형 정보를 제공할 수 있는 웹 기술을 말한다. 지능화, 개인화된 맞춤형 웹이다:(wikipedia)</div><div><span style=\"color:rgb(85, 85, 85);\"><span style=\"--en-markholder:tr...",
+      "<div>정의 </div></li></ol><div>설명가능 인공지능(Explainable AI,XAI) : 판단에 대한 이유를 사람이 이해할 수 있는 방식으로 제시하는 인공지능을 일컫는다. 특정한 판단에 대해 알고리즘의 설계자조차도 그 이유를 설명할 수 없는 '블랙박스' 인공지능과 대비되는 개념이다. </div><ol start=\"2\"><li><div>필...",
+      "<div style=\"--en-clipped-content:simplified; --en-clipped-source-url:https://m.post.naver.com/viewer/postView.nhn?volumeNo=29749223&amp;memberNo=1006583&amp;vType=VERTICAL; --en-clipped-source-title:#...",
+      "<div><span style=\"color:rgb(0, 0, 0);\">﻿</span></div>",
+      "<div style=\"display:none;--en-chs:&quot;eyJpc0VtcHR5IjpmYWxzZSwiaDEiOnsiZm9udEZhbWlseSI6ImluaGVyaXQiLCJmb250U2l6ZSI6IjI1cHgiLCJjb2xvciI6ImluaGVyaXQiLCJmb250V2VpZ2h0IjoiNjAwIiwiZm9udFN0eWxlIjoiaW5oZXJp...",
+      "<div style=\"display:none;--en-chs:&quot;eyJpc0VtcHR5IjpmYWxzZSwiaDEiOnsiZm9udEZhbWlseSI6ImluaGVyaXQiLCJmb250U2l6ZSI6IjI1cHgiLCJjb2xvciI6ImluaGVyaXQiLCJmb250V2VpZ2h0IjoiNjAwIiwiZm9udFN0eWxlIjoiaW5oZXJp..."
+    ],
+    "style_attributes": [
+      "style=\"display:none;--en-chs:&quot;eyJoMSI6eyJmb250RmFtaWx5IjoiaW5oZXJpdCIsImZvbnRTaXplIjoiMjVweCIsImNvbG9yIjoiaW5oZXJpdCIsImZvbnRXZWlnaHQiOiI2MDAiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRpb24iOiJpbmhlcml0In0sImgyIjp7ImZvbnRGYW1pbHkiOiJpbmhlcml0IiwiZm9udFNpemUiOiIyMHB4IiwiY29sb3IiOiJpbmhlcml0IiwiZm9udFdlaWdodCI6IjYwMCIsImZvbnRTdHlsZSI6ImluaGVyaXQiLCJ0ZXh0RGVjb3JhdGlvbiI6ImluaGVyaXQifSwiaDMiOnsiZm9udEZhbWlseSI6ImluaGVyaXQiLCJmb250U2l6ZSI6IjE4cHgiLCJjb2xvciI6ImluaGVyaXQiLCJmb250V2VpZ2h0IjoiNjAwIiwiZm9udFN0eWxlIjoiaW5oZXJpdCIsInRleHREZWNvcmF0aW9uIjoiaW5oZXJpdCJ9LCJwIjp7ImZvbnRGYW1pbHkiOiJpbmhlcml0IiwiZm9udFNpemUiOiJpbmhlcml0IiwiY29sb3IiOiJpbmhlcml0IiwiZm9udFdlaWdodCI6ImluaGVyaXQiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRpb24iOiJpbmhlcml0In0sImlzRW1wdHkiOmZhbHNlfQ==&quot;\"",
+      "style=\"--en-nodeId:8503023a-1add-40a9-b034-a248291b7429;\"",
+      "style=\"--en-nodeId:a01785dd-8958-49ca-a25a-d821985e6021;\"",
+      "style=\"--en-nodeId:b518ffd5-6cc5-46ce-a837-4d6dc23c1188;\"",
+      "style=\"display:none;--en-chs:&quot;eyJpc0VtcHR5IjpmYWxzZSwiaDEiOnsiZm9udEZhbWlseSI6ImluaGVyaXQiLCJmb250U2l6ZSI6IjI1cHgiLCJjb2xvciI6ImluaGVyaXQiLCJmb250V2VpZ2h0IjoiNjAwIiwiZm9udFN0eWxlIjoiaW5oZXJpdCIsInRleHREZWNvcmF0aW9uIjoiaW5oZXJpdCJ9LCJoMiI6eyJmb250RmFtaWx5IjoiaW5oZXJpdCIsImZvbnRTaXplIjoiMjBweCIsImNvbG9yIjoiaW5oZXJpdCIsImZvbnRXZWlnaHQiOiI2MDAiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRpb24iOiJpbmhlcml0In0sImgzIjp7ImZvbnRGYW1pbHkiOiJpbmhlcml0IiwiZm9udFNpemUiOiIxOHB4IiwiY29sb3IiOiJpbmhlcml0IiwiZm9udFdlaWdodCI6IjYwMCIsImZvbnRTdHlsZSI6ImluaGVyaXQiLCJ0ZXh0RGVjb3JhdGlvbiI6ImluaGVyaXQifSwicCI6eyJmb250RmFtaWx5IjoiaW5oZXJpdCIsImZvbnRTaXplIjoiaW5oZXJpdCIsImNvbG9yIjoiaW5oZXJpdCIsImZvbnRXZWlnaHQiOiJpbmhlcml0IiwiZm9udFN0eWxlIjoiaW5oZXJpdCIsInRleHREZWNvcmF0aW9uIjoiaW5oZXJpdCJ9fQ==&quot;\"",
+      "style=\"--en-nodeId:3a14d683-5b58-4f30-8d41-7b02bbd4deb0;\"",
+      "style=\"--en-clipped-content:simplified; --en-clipped-source-url:https://m.post.naver.com/viewer/postView.nhn?volumeNo=29749223&amp;memberNo=1006583&amp;vType=VERTICAL; --en-clipped-source-title:#02 &amp;apos;합리적 인간&amp;apos;에 반론을 제기하다: 행동경제학 : 네이버 포스트;\"",
+      "style=\"font-size: 16px; display:block; min-width: 100%; \"",
+      "style=\"display:none;--en-chs:&quot;eyJoMSI6eyJmb250RmFtaWx5IjoiaW5oZXJpdCIsImZvbnRTaXplIjoiMjVweCIsImNvbG9yIjoiaW5oZXJpdCIsImZvbnRXZWlnaHQiOiI2MDAiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRpb24iOiJpbmhlcml0In0sImgyIjp7ImZvbnRGYW1pbHkiOiJpbmhlcml0IiwiZm9udFNpemUiOiIyMHB4IiwiY29sb3IiOiJpbmhlcml0IiwiZm9udFdlaWdodCI6IjYwMCIsImZvbnRTdHlsZSI6ImluaGVyaXQiLCJ0ZXh0RGVjb3JhdGlvbiI6ImluaGVyaXQifSwiaDMiOnsiZm9udEZhbWlseSI6ImluaGVyaXQiLCJmb250U2l6ZSI6IjE4cHgiLCJjb2xvciI6ImluaGVyaXQiLCJmb250V2VpZ2h0IjoiNjAwIiwiZm9udFN0eWxlIjoiaW5oZXJpdCIsInRleHREZWNvcmF0aW9uIjoiaW5oZXJpdCJ9LCJwIjp7ImZvbnRGYW1pbHkiOiJpbmhlcml0IiwiZm9udFNpemUiOiJpbmhlcml0IiwiY29sb3IiOiJpbmhlcml0IiwiZm9udFdlaWdodCI6ImluaGVyaXQiLCJmb250U3R5bGUiOiJpbmhlcml0IiwidGV4dERlY29yYXRpb24iOiJpbmhlcml0In0sImlzRW1wdHkiOmZhbHNlfQ==&quot;\"",
+      "style=\"--en-nodeId:c1512f0a-4dc5-481c-9f73-fca2e98953f2;\""
+    ],
+    "en_media_types": {
+      "image/png": 35,
+      "image/jpeg": 26,
+      "text/markdown": 1,
+      "application/pdf": 1,
+      "image/svg+xml": 12
+    }
+  }
+}

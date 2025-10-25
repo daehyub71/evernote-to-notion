@@ -1,0 +1,28 @@
+
+================================================================================
+Batch upload failures - 2025-10-25 20:34:03
+================================================================================
+
+Hash: a59fe927ad501c3292d1311a3d034e02
+File: data/temp/full_upload/뉴욕여행/a59fe927ad501c3292d1311a3d034e02.jpg
+MIME: image/jpeg
+Error: Upload returned None
+
+Hash: dd9cf1b6363e82c44e66a6bad700cf98
+File: data/temp/full_upload/비전공 개발자를 위한 IT지식/dd9cf1b6363e82c44e66a6bad700cf98.pptx
+MIME: application/vnd.openxmlformats-officedocument.presentationml.presentation
+Error: Upload returned None
+
+================================================================================
+Batch upload failures - 2025-10-25 20:41:25
+================================================================================
+
+Hash: a59fe927ad501c3292d1311a3d034e02
+File: data/temp/full_upload/뉴욕여행/a59fe927ad501c3292d1311a3d034e02.jpg
+MIME: image/jpeg
+Error: Upload returned None
+
+Hash: dd9cf1b6363e82c44e66a6bad700cf98
+File: data/temp/full_upload/비전공 개발자를 위한 IT지식/dd9cf1b6363e82c44e66a6bad700cf98.pptx
+MIME: application/vnd.openxmlformats-officedocument.presentationml.presentation
+Error: Upload returned None

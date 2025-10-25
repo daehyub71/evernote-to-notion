@@ -1,0 +1,27 @@
+2025-10-25 20:55:40 - migration - DEBUG - Logger initialized: migration
+2025-10-25 20:55:40 - migration - INFO - ================================================================================
+2025-10-25 20:55:40 - migration - INFO - Evernote to Notion Migration Tool
+2025-10-25 20:55:40 - migration - INFO - ================================================================================
+2025-10-25 20:55:40 - migration - WARNING - DRY RUN MODE: No resources will be uploaded
+2025-10-25 20:55:40 - migration - INFO - Source directory: /Users/sunchulkim/evernote
+2025-10-25 20:55:40 - migration - INFO - Files to process: 1
+2025-10-25 20:55:40 - migration - INFO - Processing: 냅킨경제학.enex
+2025-10-25 20:55:40 - migration - INFO -   Parsed 3 notes
+2025-10-25 20:55:40 - migration - INFO -   Uploading 2 resources...
+2025-10-25 20:55:40 - migration - INFO -   DRY RUN: Skipped uploading 2 resources
+2025-10-25 20:55:40 - migration - INFO -   Completed: 냅킨경제학.enex
+2025-10-25 20:55:40 - migration - INFO - ================================================================================
+2025-10-25 20:55:40 - migration - INFO - Migration Complete!
+2025-10-25 20:55:40 - migration - INFO - ================================================================================
+2025-10-25 20:55:40 - migration - INFO - Migration Progress:
+  Files processed: 1
+  Notes processed: 3
+  Notes failed: 0
+  Resources uploaded: 0
+
+  Completed files: 1
+  In-progress files: 0
+2025-10-25 20:55:40 - migration - INFO - 
+2025-10-25 20:55:40 - migration - INFO - Note: Notion API integration (Phase 3) not yet implemented.
+2025-10-25 20:55:40 - migration - INFO -       Resources have been uploaded to Cloudinary.
+2025-10-25 20:55:40 - migration - INFO -       Notion pages will be created once Phase 3 is complete.

@@ -1,0 +1,24 @@
+2025-10-25 20:55:45 - migration - INFO - ================================================================================
+2025-10-25 20:55:45 - migration - INFO - Evernote to Notion Migration Tool
+2025-10-25 20:55:45 - migration - INFO - ================================================================================
+2025-10-25 20:55:45 - migration - INFO - Source directory: /Users/sunchulkim/evernote
+2025-10-25 20:55:45 - migration - INFO - Files to process: 1
+2025-10-25 20:55:45 - migration - INFO - Upload cache: 0 existing entries
+2025-10-25 20:55:45 - migration - INFO - Processing: 냅킨경제학.enex
+2025-10-25 20:55:45 - migration - INFO -   Parsed 3 notes
+2025-10-25 20:55:45 - migration - INFO -   Completed: 냅킨경제학.enex
+2025-10-25 20:55:45 - migration - INFO - ================================================================================
+2025-10-25 20:55:45 - migration - INFO - Migration Complete!
+2025-10-25 20:55:45 - migration - INFO - ================================================================================
+2025-10-25 20:55:45 - migration - INFO - Migration Progress:
+  Files processed: 1
+  Notes processed: 3
+  Notes failed: 0
+  Resources uploaded: 0
+
+  Completed files: 1
+  In-progress files: 0
+2025-10-25 20:55:45 - migration - INFO - 
+2025-10-25 20:55:45 - migration - INFO - Note: Notion API integration (Phase 3) not yet implemented.
+2025-10-25 20:55:45 - migration - INFO -       Resources have been uploaded to Cloudinary.
+2025-10-25 20:55:45 - migration - INFO -       Notion pages will be created once Phase 3 is complete.

@@ -1135,9 +1135,9 @@
 
 ---
 
-### Task 5.3: 로깅 시스템 구현 (2-3시간)
+### Task 5.3: 로깅 시스템 구현 (2-3시간) ✅ COMPLETED
 
-- [ ] 5.3.1 `app/utils/logger.py` 생성
+- [x] 5.3.1 `app/utils/logger.py` 생성 (Task 5.1과 함께 구현)
   ```python
   import logging
   from pathlib import Path
@@ -1172,13 +1172,16 @@
       return logger
   ```
 
-- [ ] 5.3.2 로깅 레벨 정의
-  - INFO: 일반 진행 상황
-  - WARNING: 리소스 업로드 실패 등
-  - ERROR: 노트 처리 실패
-  - DEBUG: 상세 디버깅 정보
+- [x] 5.3.2 로깅 레벨 정의
+  - ✅ INFO: 일반 진행 상황
+  - ✅ WARNING: 리소스 업로드 실패 등
+  - ✅ ERROR: 노트 처리 실패
+  - ✅ DEBUG: 상세 디버깅 정보 (--verbose 플래그)
 
-**완료 기준**: 로그 파일 생성, 실시간 콘솔 출력
+**완료 기준**: ✅ 로그 파일 생성, 실시간 콘솔 출력
+**구현 완료**: app/utils/logger.py (97 lines)
+**로그 위치**: logs/migration_YYYYMMDD_HHMMSS.log
+**기능**: 파일 + 콘솔 동시 로깅, 타임스탬프, 레벨별 필터링
 
 ---
 

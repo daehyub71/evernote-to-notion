@@ -15,6 +15,10 @@ import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 from cloudinary.exceptions import Error as CloudinaryError
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 

@@ -10,10 +10,6 @@ Usage:
     python main.py --resume                  # Resume from checkpoint
     python main.py --dry-run                 # Simulate without uploading
     python main.py --verbose                 # Enable debug logging
-
-Note: This version does not include Notion API integration yet.
-      It will parse ENEX files, extract resources, and upload to Cloudinary,
-      but will NOT create Notion pages (Phase 3 not implemented yet).
 """
 
 import argparse
@@ -35,6 +31,8 @@ from app.resources.batch_uploader import BatchUploader
 from app.resources.upload_cache import UploadCache
 from app.utils.checkpoint import CheckpointManager
 from app.utils.logger import setup_migration_logger
+from app.notion.client import NotionClient
+from app.notion.page_creator import PageCreator
 
 
 def parse_arguments():
@@ -55,9 +53,8 @@ Environment Variables:
   CLOUDINARY_CLOUD_NAME              Cloudinary cloud name
   CLOUDINARY_API_KEY                 Cloudinary API key
   CLOUDINARY_API_SECRET              Cloudinary API secret
-
-Note: Notion API integration (Phase 3) not yet implemented.
-      This will parse files and upload resources only.
+  NOTION_API_KEY                     Notion integration API key
+  NOTION_PARENT_PAGE_ID              Notion parent page ID for migration
         """
     )
 
@@ -90,6 +87,12 @@ Note: Notion API integration (Phase 3) not yet implemented.
         type=int,
         default=10,
         help='Number of parallel workers for uploading (default: 10)'
+    )
+
+    parser.add_argument(
+        '--stats',
+        action='store_true',
+        help='Display migration statistics and exit'
     )
 
     return parser.parse_args()
@@ -129,10 +132,83 @@ def get_enex_files(source_dir: Path, file_arg: str = None, checkpoint_mgr: Check
         return sorted(files)
 
 
+def display_statistics(source_dir: Path, checkpoint_mgr: CheckpointManager):
+    """Display migration statistics."""
+    # Count total files and notes
+    enex_files = list(source_dir.glob('*.enex'))
+    total_files = len(enex_files)
+
+    # Parse all files to count total notes
+    total_notes = 0
+    for enex_file in enex_files:
+        try:
+            parser = EnexParser(str(enex_file))
+            notes = list(parser.parse())
+            total_notes += len(notes)
+        except:
+            pass
+
+    # Get checkpoint statistics
+    stats = checkpoint_mgr.checkpoint.get('statistics', {})
+    files_processed = stats.get('total_files_processed', 0)
+    notes_processed = stats.get('total_notes_processed', 0)
+    notes_failed = stats.get('total_notes_failed', 0)
+    resources_uploaded = stats.get('total_resources_uploaded', 0)
+
+    # Calculate success rate
+    success_rate = ((notes_processed - notes_failed) / notes_processed * 100) if notes_processed > 0 else 0
+
+    print('='*80)
+    print('  Migration Statistics')
+    print('='*80)
+    print()
+    print(f'📊 Files:')
+    print(f'   Total: {total_files}')
+    print(f'   Processed: {files_processed} ({files_processed/total_files*100:.1f}%)')
+    print()
+    print(f'📝 Notes:')
+    print(f'   Total: {total_notes:,}')
+    print(f'   Processed: {notes_processed:,} ({notes_processed/total_notes*100:.1f}%)')
+    print(f'   Successful: {notes_processed - notes_failed:,}')
+    print(f'   Failed: {notes_failed:,}')
+    print()
+    print(f'📦 Resources:')
+    print(f'   Uploaded: {resources_uploaded:,}')
+    print()
+    print(f'✅ Success Rate: {success_rate:.1f}%')
+    print()
+
+    # Show completed files
+    completed_files = checkpoint_mgr.checkpoint.get('completed_files', [])
+    if completed_files:
+        print(f'📁 Completed Files ({len(completed_files)}):')
+        for filepath in completed_files[:10]:
+            filename = Path(filepath).name
+            print(f'   ✓ {filename}')
+        if len(completed_files) > 10:
+            print(f'   ... and {len(completed_files) - 10} more')
+        print()
+
+    # Show failed notes
+    failed_notes = checkpoint_mgr.checkpoint.get('failed_notes', {})
+    if failed_notes:
+        print(f'❌ Failed Notes ({len(failed_notes)}):')
+        for title, error_data in list(failed_notes.items())[:5]:
+            print(f'   ✗ {title[:60]}')
+            error_msg = error_data.get('error', str(error_data)) if isinstance(error_data, dict) else str(error_data)
+            print(f'     Error: {error_msg[:80]}')
+        if len(failed_notes) > 5:
+            print(f'   ... and {len(failed_notes) - 5} more')
+        print()
+
+    print('='*80)
+
+
 def process_file(
     enex_file: Path,
     batch_uploader: BatchUploader,
     upload_cache: UploadCache,
+    page_creator: PageCreator,
     checkpoint_mgr: CheckpointManager,
     dry_run: bool,
     logger
@@ -144,6 +220,7 @@ def process_file(
         enex_file: Path to .enex file
         batch_uploader: Batch uploader instance
         upload_cache: Upload cache instance
+        page_creator: Notion page creator
         checkpoint_mgr: Checkpoint manager
         dry_run: If True, skip actual uploading
         logger: Logger instance
@@ -175,15 +252,19 @@ def process_file(
                 resource_map = extractor.extract_resources(note)
                 all_resources.extend(resource_map.values())
 
-            # TODO: Phase 3 - Create Notion page here
-            # if not dry_run:
-            #     page_id = page_creator.create_from_note(note, resource_map)
-            #     checkpoint_mgr.mark_note_completed(note.title, page_id)
-            # else:
-            #     checkpoint_mgr.mark_note_completed(note.title, None)
-
-            # For now, just mark as completed without Notion page
-            checkpoint_mgr.mark_note_completed(note.title, notion_page_id=None)
+            # Create Notion page
+            if not dry_run:
+                try:
+                    page_id = page_creator.create_from_note(note, include_metadata=True, dry_run=False)
+                    checkpoint_mgr.mark_note_completed(note.title, notion_page_id=page_id)
+                    logger.debug(f"    Created Notion page: {page_id}")
+                except Exception as notion_error:
+                    logger.error(f"    Failed to create Notion page for '{note.title[:60]}': {notion_error}")
+                    checkpoint_mgr.mark_note_failed(note.title, str(notion_error))
+                    continue
+            else:
+                checkpoint_mgr.mark_note_completed(note.title, notion_page_id=None)
+                logger.debug(f"    DRY RUN: Skipped Notion page creation")
 
         except Exception as e:
             logger.error(f"  Failed to process note '{note.title[:60]}': {e}")
@@ -238,6 +319,11 @@ def main():
     # Initialize checkpoint manager
     checkpoint_mgr = CheckpointManager()
 
+    # If --stats flag, display statistics and exit
+    if args.stats:
+        display_statistics(source_dir, checkpoint_mgr)
+        return 0
+
     if args.resume:
         logger.info("RESUME mode: Skipping already processed files")
         logger.info(checkpoint_mgr.get_summary())
@@ -260,6 +346,19 @@ def main():
         batch_uploader = None
         upload_cache = None
 
+    # Initialize Notion client and page creator
+    notion_api_key = os.getenv('NOTION_API_KEY')
+    notion_parent_id = os.getenv('NOTION_PARENT_PAGE_ID')
+
+    if not notion_api_key or not notion_parent_id:
+        logger.error("Missing Notion credentials!")
+        logger.error("Set NOTION_API_KEY and NOTION_PARENT_PAGE_ID in .env file")
+        return 1
+
+    notion_client = NotionClient(api_key=notion_api_key, max_retries=3)
+    page_creator = PageCreator(client=notion_client, parent_id=notion_parent_id)
+    logger.info(f"Notion client initialized (parent: {notion_parent_id[:8]}...)")
+
     # Process files
     with checkpoint_mgr:  # Auto-save on exit
         for enex_file in files:
@@ -268,6 +367,7 @@ def main():
                     enex_file,
                     batch_uploader,
                     upload_cache,
+                    page_creator,
                     checkpoint_mgr,
                     args.dry_run,
                     logger
@@ -284,10 +384,10 @@ def main():
     logger.info("="*80)
     logger.info(checkpoint_mgr.get_summary())
 
-    logger.info("")
-    logger.info("Note: Notion API integration (Phase 3) not yet implemented.")
-    logger.info("      Resources have been uploaded to Cloudinary.")
-    logger.info("      Notion pages will be created once Phase 3 is complete.")
+    if not args.dry_run:
+        logger.info("")
+        logger.info(f"Notion pages created under: https://notion.so/{notion_parent_id.replace('-', '')}")
+        logger.info("Resources uploaded to Cloudinary and embedded in pages.")
 
     return 0
 

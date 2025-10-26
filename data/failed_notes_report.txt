@@ -1,0 +1,129 @@
+====================================================================================================
+Evernote to Notion Migration - Failed Notes Report
+====================================================================================================
+
+Generated: 2025-10-26 09:23:38
+
+SUMMARY
+----------------------------------------------------------------------------------------------------
+Total notes processed: 1215
+Successful: 1190
+Failed: 25
+Success rate: 97.9%
+
+
+====================================================================================================
+2000-CHAR PARAGRAPH LIMIT (20 notes)
+====================================================================================================
+
+1. “MS Word → Markdown 변환기(Windows)”  프로젝트 구조도(코드 모듈/디렉토리 설계)
+   Failed at: 2025-10-25T21:23:28.528931
+   Error: Failed to create page '“MS Word → Markdown 변환기(Windows)”  프로젝트 구조도(코드 모듈/디렉토리 설계)': Invalid blocks: ['Block 2: paragraph: Single rich text content exceeds 2000 chars']
+
+2. KBO 선수 세이버메트릭스 분석 시스템 상세 기능 명세서 (현실적 구현 버전)
+   Failed at: 2025-10-25T21:25:26.875067
+   Error: Failed to create page 'KBO 선수 세이버메트릭스 분석 시스템 상세 기능 명세서 (현실적 구현 버전)': Invalid blocks: ['Block 44: paragraph: Single rich text content exceeds 2000 chars']
+
+3. 금융 분석 방법론 상세 가이드
+   Failed at: 2025-10-25T21:26:50.445333
+   Error: Failed to create page '금융 분석 방법론 상세 가이드': Invalid blocks: ['Block 516: paragraph: Single rich text content exceeds 2000 chars', 'Block 520: paragraph: Single rich text content exceeds 2000 chars']
+
+4. 금융데이터 Vibe 코딩 프로젝트 계획서
+   Failed at: 2025-10-25T21:26:52.746102
+   Error: Failed to create page '금융데이터 Vibe 코딩 프로젝트 계획서': Invalid blocks: ['Block 146: paragraph: Single rich text content exceeds 2000 chars']
+
+5. 기술적 분석 차트 시스템 아키텍처
+   Failed at: 2025-10-25T21:26:53.376435
+   Error: Failed to create page '기술적 분석 차트 시스템 아키텍처': Invalid blocks: ['Block 17: paragraph: Single rich text content exceeds 2000 chars']
+
+6. 실전으로 배우는 파이썬 금융 데이터 분석 [2편]2,759개 종목 데이터 수집 대작전 - 99.96% 성공률을 달성하기까지
+   Failed at: 2025-10-25T21:27:02.012430
+   Error: Failed to create page '실전으로 배우는 파이썬 금융 데이터 분석 [2편]2,759개 종목 데이터 수집 대작전 - 99.96% 성공률을 달성하기까지': Invalid blocks: ['Block 131: paragraph: Single rich text content exceeds 2000 chars']
+
+7. 실전으로 배우는 파이썬 금융 데이터 분석 [3편]워런 버핏 스타일 가치투자 시스템 구축 - DART API로 기업의 진짜 가치 발굴하기
+   Failed at: 2025-10-25T21:27:02.928926
+   Error: Failed to create page '실전으로 배우는 파이썬 금융 데이터 분석 [3편]워런 버핏 스타일 가치투자 시스템 구축 - DART API로 기업의 진짜 가치 발굴하기': Invalid blocks: ['Block 90: paragraph: Single rich text content exceeds 2000 chars', 'Block 104: pa...
+
+8. [11월 2일~7일]대협이 필리핀에 다녀오다 :: 대협의 부동산모형예측
+   Failed at: 2025-10-25T21:34:15.300730
+   Error: Failed to create page '[11월 2일~7일]대협이 필리핀에 다녀오다 :: 대협의 부동산모형예측': Invalid blocks: ['Block 0: paragraph: Single rich text content exceeds 2000 chars']
+
+9. [1박2일여행]거제,통영으로의 봄여행 :: 대협의 부동산모형예측
+   Failed at: 2025-10-25T21:34:21.382112
+   Error: Failed to create page '[1박2일여행]거제,통영으로의 봄여행 :: 대협의 부동산모형예측': Invalid blocks: ['Block 0: paragraph: Single rich text content exceeds 2000 chars']
+
+10. [북리뷰] 뇌는 팩트에 끌리지 않는다.
+   Failed at: 2025-10-25T21:52:15.403746
+   Error: Failed to create page '[북리뷰] 뇌는 팩트에 끌리지 않는다.': Invalid blocks: ['Block 16: paragraph: Single rich text content exceeds 2000 chars']
+
+11. 1.2절
+   Failed at: 2025-10-25T22:32:26.267466
+   Error: Failed to create page '1.2절': Invalid blocks: ['Block 20: paragraph: Single rich text content exceeds 2000 chars']
+
+12. #2MOIS 문서 DB 스키마 & 마이그레이션 (SQLite)
+   Failed at: 2025-10-25T22:33:11.310783
+   Error: Failed to create page '#2MOIS 문서 DB 스키마 & 마이그레이션 (SQLite)': Invalid blocks: ['Block 35: paragraph: Single rich text content exceeds 2000 chars', 'Block 44: paragraph: Single rich text content exceeds ...
+
+13. [claude code]Jira/Confluence MCP 기반 고객 대응 운영자 시스템 개발계획서
+   Failed at: 2025-10-25T22:33:57.935614
+   Error: Failed to create page '[claude code]Jira/Confluence MCP 기반 고객 대응 운영자 시스템 개발계획서': Invalid blocks: ['Block 17: paragraph: Single rich text content exceeds 2000 chars', 'Block 33: paragraph: Single rich ...
+
+14. GitHub Spec Kit 완벽 가이드
+   Failed at: 2025-10-25T22:34:54.454017
+   Error: Failed to create page 'GitHub Spec Kit 완벽 가이드': Invalid blocks: ['Block 112: paragraph: Single rich text content exceeds 2000 chars', 'Block 133: paragraph: Single rich text content exceeds 2000 chars...
+
+15. value-investment-system 프로젝트 디렉토리 구조
+   Failed at: 2025-10-25T22:35:29.260296
+   Error: Failed to create page 'value-investment-system 프로젝트 디렉토리 구조': Invalid blocks: ['Block 2: paragraph: Single rich text content exceeds 2000 chars']
+
+16. 공시지가 기반 매수 적정성 평가 서비스를 위한 요구사항 정의서(PRD 초안)
+   Failed at: 2025-10-25T22:36:02.873222
+   Error: Failed to create page '공시지가 기반 매수 적정성 평가 서비스를 위한 요구사항 정의서(PRD 초안)': Invalid blocks: ['Block 125: paragraph: Single rich text content exceeds 2000 chars']
+
+17. 공시지가 기반 매수 적정성 평가 서비스를 위한 프로젝트 구조도
+   Failed at: 2025-10-25T22:36:05.114443
+   Error: Failed to create page '공시지가 기반 매수 적정성 평가 서비스를 위한 프로젝트 구조도': Invalid blocks: ['Block 1: paragraph: Single rich text content exceeds 2000 chars']
+
+18. 트렁크
+   Failed at: 2025-10-25T22:37:59.731684
+   Error: Failed to create page '트렁크': Invalid blocks: ['Block 0: paragraph: Single rich text content exceeds 2000 chars']
+
+19. 프로젝트 구조도
+   Failed at: 2025-10-25T22:38:15.269670
+   Error: Failed to create page '프로젝트 구조도': Invalid blocks: ['Block 1: paragraph: Single rich text content exceeds 2000 chars']
+
+20. 🎯 멀티 전략 통합 시스템 - 프로젝트 구조
+   Failed at: 2025-10-25T22:38:54.287761
+   Error: Failed to create page '🎯 멀티 전략 통합 시스템 - 프로젝트 구조': Invalid blocks: ['Block 2: paragraph: Single rich text content exceeds 2000 chars']
+
+
+====================================================================================================
+OTHER (3 notes)
+====================================================================================================
+
+1. ['13.6.30]precilia를 보내며 마지막 evening party :: 대협의 부동산모형예측
+   Failed at: 2025-10-25T21:34:00.791285
+   Error: Failed to create page '['13.6.30]precilia를 보내며 마지막 evening party :: 대협의 부동산모형예측': Unexpected error: Request to Notion API has timed out
+
+2. 1.3 OSI 7계층과 TCP/IP 4계층
+   Failed at: 2025-10-25T21:49:12.173326
+   Error: Failed to create page '1.3 OSI 7계층과 TCP/IP 4계층': Unexpected error: Request to Notion API has timed out
+
+3. [책 리뷰 #239] 유럽 도시 기행 2(빈,부다페스트,프라하,드레스덴) / 유시민 /생각의길
+   Failed at: 2025-10-25T22:20:14.923598
+   Error: Failed to create page '[책 리뷰 #239] 유럽 도시 기행 2(빈,부다페스트,프라하,드레스덴) / 유시민 /생각의길': Unexpected error: Request to Notion API has timed out
+
+
+====================================================================================================
+VALIDATION ERROR (2 notes)
+====================================================================================================
+
+1. 광명시 아파트매매가격지수와 각종경제지표와의 상관관계분석
+   Failed at: 2025-10-25T21:34:38.824157
+   Error: Failed to create page '광명시 아파트매매가격지수와 각종경제지표와의 상관관계분석': Validation error: Content creation Failed. Fix the following: 
+Invalid URL for link.
+
+2. 1장
+   Failed at: 2025-10-25T21:49:14.797857
+   Error: Failed to create page '1장': Validation error: Content creation Failed. Fix the following: 
+Invalid URL for link.
